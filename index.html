@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-  <h1>Starting Bootstrap</h1>
-  <div id="duckTarget"></div>
-  
+  <h1>Teach me how to Duckie</h1>
+  <div class="buttons">
+    <button type="button" class="btn btn-outline-danger" id="all">All Ducks</button>
+    <button type="button" class="btn btn-outline-primary" id="large">Large Ducks</button>
+    <button type="button" class="btn btn-outline-success" id="medium">Medium Ducks</button>
+    <button type="button" class="btn btn-outline-danger" id="small">Small Ducks</button>
+    <button type="button" class="btn btn-outline-info" id="male">Male Ducks</button>
+    <button type="button" class="btn btn-outline-info" id="female">Female Ducks</button>
+    <button type="button" class="btn btn-outline-info" id="rubber">Rubber Ducks</button>
+  </div>
+  <div id="duckTarget" class="container"></div>
+
   <script src="main.js"></script>
 </body>
 </html>
